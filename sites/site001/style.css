@@ -1,0 +1,32 @@
+body {
+    background-color: #02735e4d;
+}
+
+h1 { font-family:'Roboto Slab', serif;
+     text-align: center;
+     color: #731702;
+     font-weight: 700;
+     text-decoration: underline;
+     text-shadow: 2px 2px 0px #2e090183;
+     font-size: 2em;
+}
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    color: #F27405;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 2em;
+}
+p {
+    font-family: serif;
+    text-align: justify;
+    color: black;
+    font-size: 2em;
+}
+li {
+    font-size: 32px;
+}
+img {
+    
+}
