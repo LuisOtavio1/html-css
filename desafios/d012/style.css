@@ -22,6 +22,7 @@ pre {
     font-family: var(--fonte4);
     font-size: clamp(18px,3vw,30px);
     font-weight: bold;
+    text-shadow: 0.3px 0.3px 0px black;
 }
 
 html, body {
@@ -74,14 +75,28 @@ section.normal {
 section.imagem {
     background-color: rgb(6, 6, 15);
     color: white;
-    
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
 }
 
 section.imagem > pre > p {
-    background-color: rgba(43, 41, 41, 0.432);
+    background-color: rgba(43, 41, 41, 0.582);
     display: inline-block;
     padding: 8px;
 }
+
+section#img01 {
+    background-image: url('./imagens/background001.jpg');
+    
+}
+
+section#img02 {
+    background-image: url('./imagens/background002.jpg');
+    
+    box-shadow: inset 7px 7px 13px 0px rgba(0, 0, 0, 0.466);
+}
+
 
 footer {
     background-color: black;
